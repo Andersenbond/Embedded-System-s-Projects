@@ -1,0 +1,12 @@
+s_guest-objs-y  = FreeRTOS_tick_config.o
+s_guest-objs-y += FreeRTOS_asm_vectors.o
+s_guest-objs-y += FreeRTOS_main.o
+s_guest-objs-y += FreeRTOS_Func.o
+s_guest-objs-y += portASM.o
+s_guest-objs-y += heap_1.o
+s_guest-objs-y += timers.o
+s_guest-objs-y += queue.o
+s_guest-objs-y += list.o
+s_guest-objs-y += port.o
+s_guest-objs-y += tasks.o
+s_guest-objs-y += ltz_led.o

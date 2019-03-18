@@ -1,0 +1,452 @@
+[lmbench3.0 results for Linux andersenbond 4.15.0-34-generic #37-Ubuntu SMP Mon Aug 27 15:21:48 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux]
+[LMBENCH_VER: 3.0-a9]
+[BENCHMARK_HARDWARE: YES]
+[BENCHMARK_OS: YES]
+[ALL: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m]
+[DISKS: ]
+[DISK_DESC: ]
+[ENOUGH: ]
+[FAST: ]
+[FASTMEM: NO]
+[FILE: /var/tmp/XXX]
+[FSDIR: /var/tmp]
+[HALF: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m]
+[INFO: INFO.andersenbond]
+[LINE_SIZE: ]
+[LOOP_O: ]
+[MB: 8]
+[MHZ: ]
+[MOTHERBOARD: ]
+[NETWORKS: ]
+[PROCESSORS: 4]
+[REMOTE: ]
+[SLOWFS: NO]
+[OS: Linux]
+[SYNC_MAX: 1]
+[LMBENCH_SCHED: DEFAULT]
+[TIMING_O: ]
+[LMBENCH VERSION: 3.0-a9]
+[USER: andersen]
+[HOSTNAME: andersenbond]
+[NODENAME: andersenbond]
+[SYSNAME: Linux]
+[PROCESSOR: x86_64]
+[MACHINE: x86_64]
+[RELEASE: 4.15.0-34-generic]
+[VERSION: #37-Ubuntu SMP Mon Aug 27 15:21:48 UTC 2018]
+[dom set 30 00:02:04 WEST 2018]
+[ 00:02:04 up 4:35, 1 user, load average: 2,20, 1,90, 1,55]
+[net: Kernel Interface table]
+[net: Iface      MTU    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg]
+[net: eno1      1500        0      0      0 0           627      0      0      0 BMRU]
+[if: eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500]
+[if: inet 10.50.0.1  netmask 255.255.255.0  broadcast 10.50.0.255]
+[if: inet6 fe80::c32f:1835:7f5d:bd35  prefixlen 64  scopeid 0x20<link>]
+[if: ether 14:58:d0:00:0c:58  txqueuelen 1000  (Ethernet)]
+[if: RX packets 0  bytes 0 (0.0 B)]
+[if: RX errors 0  dropped 0  overruns 0  frame 0]
+[if: TX packets 627  bytes 106048 (106.0 KB)]
+[if: TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0]
+[if: ]
+[net: lo       65536     3009      0      0 0          3009      0      0      0 LRU]
+[if: lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536]
+[if: inet 127.0.0.1  netmask 255.0.0.0]
+[if: inet6 ::1  prefixlen 128  scopeid 0x10<host>]
+[if: loop  txqueuelen 1000  (Local Loopback)]
+[if: RX packets 3009  bytes 251040 (251.0 KB)]
+[if: RX errors 0  dropped 0  overruns 0  frame 0]
+[if: TX packets 3009  bytes 251040 (251.0 KB)]
+[if: TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0]
+[if: ]
+[net: wlo1      1500  1259160      0      0 0        914407      0      0      0 BMRU]
+[if: wlo1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500]
+[if: inet 172.26.63.179  netmask 255.255.0.0  broadcast 172.26.255.255]
+[if: inet6 fe80::512:c074:699f:8ba4  prefixlen 64  scopeid 0x20<link>]
+[if: ether b0:10:41:b2:22:1f  txqueuelen 1000  (Ethernet)]
+[if: RX packets 1259160  bytes 1622512315 (1.6 GB)]
+[if: RX errors 0  dropped 0  overruns 0  frame 0]
+[if: TX packets 914408  bytes 101689374 (101.6 MB)]
+[if: TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0]
+[if: ]
+[mount: sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)]
+[mount: proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)]
+[mount: udev on /dev type devtmpfs (rw,nosuid,relatime,size=4018904k,nr_inodes=1004726,mode=755)]
+[mount: devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)]
+[mount: tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=809844k,mode=755)]
+[mount: /dev/sda6 on / type ext4 (rw,relatime,errors=remount-ro,data=ordered)]
+[mount: securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)]
+[mount: tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)]
+[mount: tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)]
+[mount: tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)]
+[mount: cgroup on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)]
+[mount: cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)]
+[mount: pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)]
+[mount: efivarfs on /sys/firmware/efi/efivars type efivarfs (rw,nosuid,nodev,noexec,relatime)]
+[mount: cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)]
+[mount: cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)]
+[mount: cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)]
+[mount: cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)]
+[mount: cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)]
+[mount: cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)]
+[mount: cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)]
+[mount: cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)]
+[mount: cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)]
+[mount: cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)]
+[mount: cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)]
+[mount: systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=24,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=15411)]
+[mount: mqueue on /dev/mqueue type mqueue (rw,relatime)]
+[mount: hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)]
+[mount: debugfs on /sys/kernel/debug type debugfs (rw,relatime)]
+[mount: configfs on /sys/kernel/config type configfs (rw,relatime)]
+[mount: fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)]
+[mount: /dev/sda2 on /boot/efi type vfat (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)]
+[mount: binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)]
+[mount: tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=809840k,mode=700,uid=1000,gid=1000)]
+[mount: gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)]
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+"mappings
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+/lib/ld-linux-armhf.so.3: No such file or directory
+"File system latency
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Socket bandwidth using localhost
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+"read bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+"read open2close bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+
+"Mmap read bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+"Mmap read open2close bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+
+"libc bcopy unaligned
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+"libc bcopy aligned
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Memory bzero bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+"unrolled bcopy unaligned
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+"unrolled partial bcopy unaligned
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Memory read bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Memory partial read bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Memory write bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Memory partial write bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Memory partial read/write bandwidth
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+/lib/ld-linux-armhf.so.3: No such file or directory
+Memory load parallelism
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Memory load latency
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+Random load latency
+/lib/ld-linux-armhf.so.3: No such file or directory
+
+
+[dom set 30 00:02:08 WEST 2018]

@@ -1,0 +1,69 @@
+push {r0-r12,lr }
+bl show_regs
+pop {r0-r12, lr}
+
+ldmia  r0!, {r1,r2}
+push {r0-r12,lr }
+bl show_regs
+pop {r0-r12, lr}
+
+ldmia  r0!, {r1,r2,r3}
+push {r0-r12,lr }
+bl show_regs
+pop {r0-r12, lr}
+
+ldmia  r0!, {r1,r2,r3}
+push {r0-r12,lr }
+bl show_regs
+pop {r0-r12, lr}
+
+ldmia  r0!, {r1,r2,r3}
+push {r0-r12,lr }
+bl show_regs
+pop {r0-r12, lr}
+
+ldmia  r0!, {r1,r2,r3}
+push {r0-r12,lr }
+bl show_regs
+pop {r0-r12, lr}
+
+ldmia  r0!, {r1,r2,r3}
+push {r0-r12,lr }
+bl show_regs
+pop {r0-r12, lr}
+
+
+                            spsr          r13      lr
+CODE HERE: r0: 1041e05c |r1: 193 |r2: 30000000|r3: 0|r4: 1041e05c|r5: 193|r6: 30000000|r7: 0|r8: 0|r9: 0|r10: 0
+CODE HERE: r0: 1041e068 |r1: 0 |r2: 0|r3: 0|r4: 1041e068|r5: 0|r6: 0|r7: 0|r8: 0|r9: 0|r10: 0
+CODE HERE: r0: 1041e074 |r1: 0 |r2: 0|r3: 0|r4: 1041e074|r5: 0|r6: 0|r7: 0|r8: 0|r9: 0|r10: 0
+CODE HERE: r0: 1041e080 |r1: 0 |r2: 0|r3: 0|r4: 1041e080|r5: 0|r6: 0|r7: 0|r8: 0|r9: 0|r10: 0
+CODE HERE: r0: 1041e08c |r1: 0 |r2: 0|r3: 0|r4: 1041e08c|r5: 0|r6: 0|r7: 0|r8: 0|r9: 0|r10: 0
+CODE HERE: r0: 1041e098 |r1: 0 |r2: 0|r3: 0|r4: 1041e098|r5: 0|r6: 0|r7: 0|r8: 0|r9: 0|r10: 0
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+ CODE HERE: r0: 1041e05c |r1: 6000009b |r2: 10000b04|r3: 0|r4: 1041e05c|r5: 6000009b|r6: 10000b04|r7: 0|r8: 0|r0
+CODE HERE: r0: 1041e068 |r1: 6 |r2: 0|r3: 0|r4: 1041e068|r5: 6|r6: 0|r7: 0|r8: 0|r9: 0|r10: 0
+CODE HERE: r0: 1041e074 |r1: 0 |r2: 0|r3: 0|r4: 1041e074|r5: 0|r6: 0|r7: 0|r8: 0|r9: 0|r10: 0
+CODE HERE: r0: 1041e080 |r1: 10 |r2: 0|r3: d00004|r4: 1041e080|r5: 10|r6: 0|r7: d00004|r8: 0|r9: 0|r10: 0
+CODE HERE: r0: 1041e08c |r1: 6000009b |r2: 0|r3: 10000840|r4: 1041e08c|r5: 6000009b|r6: 0|r7: 10000840|r8: 0|r0
+CODE HERE: r0: 10r4: 1041e074| 41e098 |r1: 10000b14 |r2: 0|r3: 0|r4: 1041e098|r5: 10000b14|r6: 0|r7: 0|r8: 0|r9: 0|r10: 0
+
+
+                ptr         spsr    r13         lr
+CODE HERE: r0: 1041e05c |r1: 193 |r2: 30000000|r3: 0|
+ptr            spsr          lr
+CODE HERE: r0: 1041e068 |r1: 0   |r2: 0       |r3: 0|
+CODE HERE: r0: 1041e074 |r1: 0   |r2: 0       |r3: 0|                  
+CODE HERE: r0: 1041e080 |r1: 0   |r2: 0       |r3: 0|
+CODE HERE: r0: 1041e08c |r1: 0   |r2: 0       |r3: 0|
+CODE HERE: r0: 1041e098 |r1: 0   |r2: 0       |r3: 0|
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+CODE HERE: r0: 1041e05c |r1: 6000009b |r2: 10000b04|r3: 0|
+CODE HERE: r0: 1041e068 |r1: 6        |r2: 0       |r3: 0|
+CODE HERE: r0: 1041e074 |r1: 0        |r2: 0       |r3: 0|
+CODE HERE: r0: 1041e080 |r1: 10       |r2: 0       |r3: d00004|
+CODE HERE: r0: 1041e08c |r1: 6000009b |r2: 0       |r3: 10000840
+CODE HERE: r0: 1041e098 |r1: 10000b14 |r2: 0       |r3: 0|

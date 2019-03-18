@@ -1,0 +1,16 @@
+cpu-objs-y =  startup.o
+cpu-objs-y += vectors.o
+cpu-objs-y += m_vectors.o
+cpu-objs-y += m_vectors1.o
+cpu-objs-y += cortexA9.o
+cpu-objs-y += cp15_switch.o
+cpu-objs-y += cpu_helper.o
+cpu-objs-y += monitor.o
+cpu-objs-y += cpu_stack.o
+cpu-objs-y += dcd.o
+cpu-objs-y += ivt.o
+cpu-objs-y += cache_l2.o
+cpu-objs-y += cache_v7_asm.o
+cpu-objs-y += non_secure_Support.o
+cpu-objs-y += non_secure_support.o
+cpu-objs-y += board_smc.o
