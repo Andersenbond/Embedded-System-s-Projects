@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.sdk/fsbl/Debug" key="bootgen_files_selection"/>
+	<item value="/home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.sdk/HelloWorld/bootimage" key="zynq_flash_files_selection"/>
+	<item value="/home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.sdk/HelloWorld/bootimage" key="last_stored_selection"/>
+</section>

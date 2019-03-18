@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ailton Lopes, UMINHO, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\TemplateProject.uvprojx
+Project File Date:  01/17/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(340): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                                                        Gains[1] += 0.1;
+main.c(344): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                                                        Gains[1] -= 0.1;
+main.c(351): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                                                        Gains[2] += 0.01;
+main.c(355): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                                                        Gains[2] -= 0.01;
+main.c(576): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                                        Error = (E_Right + E_Left)*0.5;
+main.c(565): warning:  #177-D: variable "StopFlag" was declared but never referenced
+            char StopFlag = '1';
+main.c(665): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                                        PWM_Right = (PWM_Input2 - DistancePID.Diferential + turn_need + speed_need)*1.3;
+main.c(630): warning:  #550-D: variable "Last_Error" was set but never used
+                float Setpoint = 0, PWM_Input2 = 0, PWM_Right, PWM_Left,Error, Last_Error, RobotCurrentAngle = 0, Gyro_Rate; // we can use the Gyro angle on the Kd term 
+main.c(797): warning:  #167-D: argument of type "void *" is incompatible with parameter of type "TaskFunction_t"
+      Create_Task((void*)PID_Controller_Function, "BalancingPIDTask",  500, ( void * ) 1, 29 , pxCreatedTask );         
+main.c(798): warning:  #167-D: argument of type "void *" is incompatible with parameter of type "TaskFunction_t"
+                Create_Task((void*)PID_Distance_Function,   "DistancePIDTask",   128, ( void * ) 2, 10 , pxCreatedTask );     
+main.c(799): warning:  #167-D: argument of type "void *" is incompatible with parameter of type "TaskFunction_t"
+                Create_Task((void*)Acquisition_Function,    "AcquisitionTask",   128, ( void * ) 3, 11 , pxCreatedTask );     
+main.c(800): warning:  #167-D: argument of type "void *" is incompatible with parameter of type "TaskFunction_t"
+          Create_Task((void*)Motor_Controller,        "MotorControlerTask",128, ( void * ) 4, 10 , pxCreatedTask );     
+main.c(801): warning:  #167-D: argument of type "void *" is incompatible with parameter of type "TaskFunction_t"
+                Create_Task((void*)Update_Encoder,          "UpdateEncoderTask", 50,  ( void * ) 5, 2  , pxCreatedTask );     
+main.c(802): warning:  #167-D: argument of type "void *" is incompatible with parameter of type "TaskFunction_t"
+                Create_Task((void*)USART_Receive_Function,  "USARTReceiveTask",  128, ( void * ) 6, 6  , pxCreatedTask ); 
+main.c(803): warning:  #167-D: argument of type "void *" is incompatible with parameter of type "TaskFunction_t"
+                Create_Task((void*)Test,                    "TestTask",          8,   ( void * ) 7, 0  , pxCreatedTask ); 
+main.c: 15 warnings, 0 errors
+linking...
+Program Size: Code=29008 RO-data=648 RW-data=348 ZI-data=86316  
+FromELF: creating hex file...
+".\Objects\TemplateProject.axf" - 0 Error(s), 15 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

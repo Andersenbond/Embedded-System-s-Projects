@@ -1,0 +1,5 @@
+generate_aeskey_image:
+{
+	[aeskeyfile] bbram.nky
+	[bootloader, encryption=aes] fsbl.elf
+}

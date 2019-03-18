@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/commands_mode">
+
+        <ListPreference
+            android:defaultValue="\\r\\n"
+            android:dialogTitle="@string/commands_mode"
+            android:entries="@array/commands_ending"
+            android:entryValues="@array/commands_ending"
+            android:key="@string/pref_commands_ending"
+            android:summary="@string/commands_ending_summary" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

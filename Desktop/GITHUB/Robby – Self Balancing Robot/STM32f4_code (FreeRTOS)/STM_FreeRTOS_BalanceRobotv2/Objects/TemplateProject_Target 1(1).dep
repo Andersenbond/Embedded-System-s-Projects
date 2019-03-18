@@ -1,0 +1,857 @@
+Dependencies for Project 'TemplateProject', Target 'Target 1': (DO NOT MODIFY !)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f40xx.s)(0x583919FC)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f40xx.lst --xref -o .\objects\startup_stm32f40xx.o --depend .\objects\startup_stm32f40xx.d)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c)(0x550B7B58)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_spi.o --omf_browse .\objects\stm32f4xx_spi.crf --depend .\objects\stm32f4xx_spi.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_i2c.o --omf_browse .\objects\stm32f4xx_i2c.crf --depend .\objects\stm32f4xx_i2c.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_dma.o --omf_browse .\objects\stm32f4xx_dma.crf --depend .\objects\stm32f4xx_dma.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_exti.o --omf_browse .\objects\stm32f4xx_exti.crf --depend .\objects\stm32f4xx_exti.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_tim.o --omf_browse .\objects\stm32f4xx_tim.crf --depend .\objects\stm32f4xx_tim.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_syscfg.o --omf_browse .\objects\stm32f4xx_syscfg.crf --depend .\objects\stm32f4xx_syscfg.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c)(0x52387710)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (.\main.c)(0x5876506B)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main.h)(0x5874E8CD)
+I (ComplementaryFilter.h)(0x5859F9E0)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (Kalman.h)(0x5859F94C)
+I (defines.h)(0x54439A7E)
+I (tm_stm32f4_mpu6050.h)(0x58373813)
+I (tm_stm32f4_i2c.h)(0x58350AE9)
+I (tm_stm32f4_gpio.h)(0x569CCE5E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (USART.h)(0x58713698)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x57E3BC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54766380)
+I (.\FreeRTOS\FreeRTOSConfig.h)(0x57E3B77A)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\portable.h)(0x57E3BC66)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\../portable/RVDS/ARM_CM4F/portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\Semphr.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\queue.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\list.h)(0x573F3A18)
+I (Timer.h)(0x5859FA42)
+I (ExternalInterrupt.h)(0x5859FA4C)
+I (Extra.h)(0x5859E65E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+F (.\ComplementaryFilter.c)(0x587525DA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\complementaryfilter.o --omf_browse .\objects\complementaryfilter.crf --depend .\objects\complementaryfilter.d)
+I (ComplementaryFilter.h)(0x5859F9E0)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (Kalman.h)(0x5859F94C)
+F (.\USART.c)(0x58764B9F)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x57E3BC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54766380)
+I (.\FreeRTOS\FreeRTOSConfig.h)(0x57E3B77A)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\portable.h)(0x57E3BC66)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\../portable/RVDS/ARM_CM4F/portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\queue.h)(0x573F3A18)
+I (main.h)(0x5874E8CD)
+I (ComplementaryFilter.h)(0x5859F9E0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5476637E)
+I (Kalman.h)(0x5859F94C)
+I (defines.h)(0x54439A7E)
+I (tm_stm32f4_mpu6050.h)(0x58373813)
+I (tm_stm32f4_i2c.h)(0x58350AE9)
+I (tm_stm32f4_gpio.h)(0x569CCE5E)
+I (USART.h)(0x58713698)
+I (.\FreeRTOS\Source\include\Semphr.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\list.h)(0x573F3A18)
+I (Timer.h)(0x5859FA42)
+I (ExternalInterrupt.h)(0x5859FA4C)
+I (Extra.h)(0x5859E65E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+F (.\Timer.c)(0x587627A8)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (Timer.h)(0x5859FA42)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (.\ExternalInterrupt.c)(0x5859FA73)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\externalinterrupt.o --omf_browse .\objects\externalinterrupt.crf --depend .\objects\externalinterrupt.d)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+I (ExternalInterrupt.h)(0x5859FA4C)
+F (.\Extra.c)(0x5859E65E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\extra.o --omf_browse .\objects\extra.crf --depend .\objects\extra.d)
+I (Extra.h)(0x5859E65E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+F (.\FreeRTOS\Source\list.c)(0x573F3A18)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x57E3BC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (.\FreeRTOS\FreeRTOSConfig.h)(0x57E3B77A)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\portable.h)(0x57E3BC66)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\../portable/RVDS/ARM_CM4F/portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\list.h)(0x573F3A18)
+F (.\FreeRTOS\Source\queue.c)(0x573F3A18)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x57E3BC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (.\FreeRTOS\FreeRTOSConfig.h)(0x57E3B77A)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\portable.h)(0x57E3BC66)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\../portable/RVDS/ARM_CM4F/portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\list.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\queue.h)(0x573F3A18)
+F (.\FreeRTOS\Source\tasks.c)(0x573F3A18)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54766380)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x57E3BC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (.\FreeRTOS\FreeRTOSConfig.h)(0x57E3B77A)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\portable.h)(0x57E3BC66)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\../portable/RVDS/ARM_CM4F/portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\list.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\timers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\StackMacros.h)(0x573F3A18)
+F (.\FreeRTOS\Source\timers.c)(0x573F3A18)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x57E3BC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (.\FreeRTOS\FreeRTOSConfig.h)(0x57E3B77A)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\portable.h)(0x57E3BC66)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\../portable/RVDS/ARM_CM4F/portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\list.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\queue.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\timers.h)(0x573F3A18)
+F (.\FreeRTOS\Source\portable\RVDS\ARM_CM4F\port.c)(0x57E3B9D0)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x57E3BC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (.\FreeRTOS\FreeRTOSConfig.h)(0x57E3B77A)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\portable.h)(0x57E3BC66)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\../portable/RVDS/ARM_CM4F/portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\list.h)(0x573F3A18)
+F (.\FreeRTOS\Source\portable\MemMang\heap_2.c)(0x573F3A18)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\heap_2.o --omf_browse .\objects\heap_2.crf --depend .\objects\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54766380)
+I (.\FreeRTOS\Source\include\FreeRTOS.h)(0x57E3BC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54766380)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (.\FreeRTOS\FreeRTOSConfig.h)(0x57E3B77A)
+I (.\FreeRTOS\Source\include\projdefs.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\portable.h)(0x57E3BC66)
+I (.\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\../portable/RVDS/ARM_CM4F/portmacro.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\task.h)(0x573F3A18)
+I (.\FreeRTOS\Source\include\list.h)(0x573F3A18)
+F (.\tm_stm32f4_i2c.c)(0x57C91850)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\tm_stm32f4_i2c.o --omf_browse .\objects\tm_stm32f4_i2c.crf --depend .\objects\tm_stm32f4_i2c.d)
+I (tm_stm32f4_i2c.h)(0x58350AE9)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+I (defines.h)(0x54439A7E)
+I (tm_stm32f4_gpio.h)(0x569CCE5E)
+F (.\tm_stm32f4_mpu6050.c)(0x5847EFF6)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\tm_stm32f4_mpu6050.o --omf_browse .\objects\tm_stm32f4_mpu6050.crf --depend .\objects\tm_stm32f4_mpu6050.d)
+I (tm_stm32f4_mpu6050.h)(0x58373813)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+I (defines.h)(0x54439A7E)
+I (tm_stm32f4_i2c.h)(0x58350AE9)
+I (tm_stm32f4_gpio.h)(0x569CCE5E)
+F (.\tm_stm32f4_gpio.c)(0x55797C31)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\tm_stm32f4_gpio.o --omf_browse .\objects\tm_stm32f4_gpio.crf --depend .\objects\tm_stm32f4_gpio.d)
+I (tm_stm32f4_gpio.h)(0x569CCE5E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x52386A9C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4.h)(0x5215D62C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54766380)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmInstr.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cmFunc.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include\core_cm4_simd.h)(0x5215D62C)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x52386AA2)
+I (..\STM_FreeRTOS_BalanceRobotv2\stm32f4xx_conf.h)(0x5238A03E)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x52387730)
+I (..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x52387730)
+I (defines.h)(0x54439A7E)
+F (.\Kalman.c)(0x585A0F1F)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Include -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\STM32F4xx_DSP_StdPeriph_Lib_V1.2.0\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\STM_Template_Project -I.\FreeRTOS -I.\FreeRTOS\Source\include -I..\STM_FreeRTOS_Template_Project -I..\STM_FreeRTOS_BalanceRobotv2-I "C:\Users\Utilizador\Desktop\IMU - Cópia\STM_FreeRTOS_BalanceRobotv2\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="514" -DSTM32F407xx -DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DRVDS_ARMCM4F -DHSE_VALUE="8000000" --C99-o .\objects\kalman.o --omf_browse .\objects\kalman.crf --depend .\objects\kalman.d)
+I (Kalman.h)(0x5859F94C)

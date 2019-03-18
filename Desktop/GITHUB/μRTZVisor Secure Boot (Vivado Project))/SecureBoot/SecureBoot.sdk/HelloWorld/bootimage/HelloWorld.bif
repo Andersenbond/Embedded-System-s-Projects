@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.sdk/fsbl/Debug/fsbl.elf
+	/home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.sdk/zybo_design_1_wrapper_hw_platform_0/zybo_design_1_wrapper.bit
+	/home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.sdk/HelloWorld/Debug/HelloWorld.elf
+}

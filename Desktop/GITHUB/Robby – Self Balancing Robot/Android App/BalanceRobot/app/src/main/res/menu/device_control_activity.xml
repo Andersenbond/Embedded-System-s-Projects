@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_auto"
+        android:icon="@drawable/automatic"
+        android:title="@string/menu_auto"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_action_device_bluetooth"
+        android:showAsAction="always"
+        android:title="@string/action_bluetooth" />
+
+    <item
+        android:id="@+id/menu_power"
+        android:icon="@drawable/power_button"
+        android:title="@string/menu_power"
+        android:showAsAction="always" />
+
+</menu>

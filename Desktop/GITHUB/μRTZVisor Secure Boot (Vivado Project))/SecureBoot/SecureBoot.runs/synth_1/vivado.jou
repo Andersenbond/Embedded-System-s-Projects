@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu May 25 12:04:03 2017
+# Process ID: 19656
+# Current directory: /home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.runs/synth_1
+# Command line: vivado -log zybo_design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zybo_design_1_wrapper.tcl
+# Log file: /home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.runs/synth_1/zybo_design_1_wrapper.vds
+# Journal file: /home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source zybo_design_1_wrapper.tcl -notrace

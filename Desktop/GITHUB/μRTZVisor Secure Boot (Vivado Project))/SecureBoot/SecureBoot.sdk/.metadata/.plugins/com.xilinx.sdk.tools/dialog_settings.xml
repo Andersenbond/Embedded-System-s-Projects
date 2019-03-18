@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="zybo_design_1_wrapper_hw_platform_0-blankCheck"/>
+	<item value="zybo_design_1_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="Auto Detect" key="zybo_design_1_wrapper_hw_platform_0-device"/>
+	<item value="" key="zybo_design_1_wrapper_hw_platform_0-fsblFile"/>
+	<item value="0x0" key="zybo_design_1_wrapper_hw_platform_0-offSet"/>
+	<item value="/home/jltm/Documents/VivadoProjects/SecureBoot/SecureBoot.sdk/HelloWorld/bootimage/BOOT.bin" key="zybo_design_1_wrapper_hw_platform_0-imgFile"/>
+	<item value="true" key="zybo_design_1_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="qspi_single" key="zybo_design_1_wrapper_hw_platform_0-flashType"/>
+	<item value="Local" key="zybo_design_1_wrapper_hw_platform_0-target"/>
+</section>
